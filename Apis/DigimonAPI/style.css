@@ -4,7 +4,27 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    backdrop-filter: blur(5px) saturate(100%) contrast(45%) brightness(130%) sepia(100%) hue-rotate(10deg);
+    height: 100vh;
+}
+
 h1{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: rgb(255, 207, 35);
+    display: inline;
     text-align: center;
     margin: 20px 0;
 }
@@ -81,7 +101,7 @@ h1{
 .card{
     background-color: rgb(255, 207, 35);
     border: 1px solid black;
-    border-radius: 30px;
+    border-radius: 20px;
     width: 300px;
     height: 400px;
     margin: 10px 0;
@@ -94,7 +114,7 @@ h1{
 .card img{
     width: 100%;
     height: 300px;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .card .container{

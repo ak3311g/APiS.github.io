@@ -16,6 +16,12 @@ details.then((response) => {
 
 function takepage(){
 
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/levels.jpg')";
+    bg.style.backgroundRepeat = "no-repeat";
+    bg.style.backgroundSize = "cover";
+    bg.style.backgroundPosition = "center";
+
     item.innerHTML = `
     <h2>Select Level of Digimon</h2>
         <ul class = "levels">
@@ -48,6 +54,8 @@ function takepage(){
 
 function homepage(){
     let item = document.getElementById("modifies");
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/homepage.jpg')";
 
     item.innerHTML = `<button class="btn" id="btn" onclick="takepage()">Get Digimon</button>
     <div class="backbutton">
@@ -62,6 +70,8 @@ function training(){
     <button class="backbtn" onclick={takepage()}>Back</button>
     <button class="homebtn" onclick={homepage()}>Home</button>
     `
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/training.png')";
 
     let digimons = document.querySelector(".digimons");
 
@@ -90,6 +100,8 @@ function fresh(){
     <button class="backbtn" onclick={takepage()}>Back</button>
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/fresh.jpg')";
     let digimons = document.querySelector(".digimons");
 
     digidetail.map((digimon) => {
@@ -115,6 +127,9 @@ function rookie(){
     <ul class = "digimons"></ul>
     <button class="backbtn" onclick={takepage()}>Back</button>
     <button class="homebtn" onclick={homepage()}>Home</button>`
+
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/rookie.jpeg')";
 
     let digimons = document.querySelector(".digimons");
 
@@ -142,6 +157,9 @@ function champion(){
     <button class="backbtn" onclick={takepage()}>Back</button>
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/champion.jpg')";
+
     let digimons = document.querySelector(".digimons");
 
     digidetail.map((digimon) => {
@@ -168,6 +186,9 @@ function ultimate(){
     <button class="backbtn" onclick={takepage()}>Back</button>
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/ultimate.jpg')";
+    
     let digimons = document.querySelector(".digimons");
 
     digidetail.map((digimon) => {
@@ -193,6 +214,9 @@ function mega(){
     <ul class = "digimons"></ul>
     <button class="backbtn" onclick={takepage()}>Back</button>
     <button class="homebtn" onclick={homepage()}>Home</button>`
+
+    let bg = document.getElementsByTagName("body")[0];
+    bg.style.backgroundImage = "url('images/mega.jpg')";
 
     let digimons = document.querySelector(".digimons");
 
