@@ -17,7 +17,7 @@ details.then((response) => {
 function takepage(){
 
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/levels.jpg')";
+    bg.style.backgroundImage = "url('./images/levels.jpg')";
     bg.style.backgroundRepeat = "no-repeat";
     bg.style.backgroundSize = "cover";
     bg.style.backgroundPosition = "center";
@@ -55,7 +55,7 @@ function takepage(){
 function homepage(){
     let item = document.getElementById("modifies");
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/homepage.jpg')";
+    bg.style.backgroundImage = "url('./images/homepage.jpg')";
 
     item.innerHTML = `<button class="btn" id="btn" onclick="takepage()">Get Digimon</button>
     <div class="backbutton">
