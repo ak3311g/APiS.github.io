@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.levels{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.modified{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.btn{
+    background-color: rgb(35, 238, 45);
+    border-radius: 30px;
+    width: 200px;
+    height: 80px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 0px rgba(57, 57, 57, 0.5);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.backbutton{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.backbutton a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(255, 207, 35);
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 0px rgba(57, 57, 57, 0.5);
+}
+
+.backbtn{
+    background-color: rgb(238, 35, 35);
+    border-radius: 30px;
+    width: 200px;
+    height: 80px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 0px rgba(57, 57, 57, 0.5);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.digimons{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.homebtn{
+    background-color: rgb(238, 35, 35);
+    border-radius: 30px;
+    width: 200px;
+    height: 80px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 0px rgba(57, 57, 57, 0.5);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.card{
+    background-color: rgb(255, 207, 35);
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 0px rgba(57, 57, 57, 0.5);
+    font-size: 30px;
+    font-family: cursive;
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.card .container{
+    padding: 5px 20px;
+    text-align: center
+}
+
+
+
+@media screen and (max-width: 900px){
+    .modified{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .digimons{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .levels{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card{
+        width: 150px;
+        height: 220px;
+    }
+
+    .card img{
+        height: 150px;
+    }
+
+    .card .container{
+        padding: 5px 5px;
+        font-size: 15px;
+    }
+
+    .btn{
+        width: 150px;
+        height: 50px;
+        margin: 10px 0;
+        font-size: 20px;
+    } 
+    
+
+}
