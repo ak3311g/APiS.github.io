@@ -71,7 +71,7 @@ function training(){
     <button class="homebtn" onclick={homepage()}>Home</button>
     `
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/training.png')";
+    bg.style.backgroundImage = "url('./images/training.png')";
 
     let digimons = document.querySelector(".digimons");
 
@@ -101,7 +101,7 @@ function fresh(){
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/fresh.jpg')";
+    bg.style.backgroundImage = "url('./images/fresh.jpg')";
     let digimons = document.querySelector(".digimons");
 
     digidetail.map((digimon) => {
@@ -129,7 +129,7 @@ function rookie(){
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/rookie.jpeg')";
+    bg.style.backgroundImage = "url('./images/rookie.jpeg')";
 
     let digimons = document.querySelector(".digimons");
 
@@ -158,7 +158,7 @@ function champion(){
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/champion.jpg')";
+    bg.style.backgroundImage = "url('./images/champion.jpg')";
 
     let digimons = document.querySelector(".digimons");
 
@@ -187,7 +187,7 @@ function ultimate(){
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/ultimate.jpg')";
+    bg.style.backgroundImage = "url('./images/ultimate.jpg')";
     
     let digimons = document.querySelector(".digimons");
 
@@ -216,7 +216,7 @@ function mega(){
     <button class="homebtn" onclick={homepage()}>Home</button>`
 
     let bg = document.getElementsByTagName("body")[0];
-    bg.style.backgroundImage = "url('images/mega.jpg')";
+    bg.style.backgroundImage = "url('./images/mega.jpg')";
 
     let digimons = document.querySelector(".digimons");
 
