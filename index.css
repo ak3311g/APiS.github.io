@@ -16,12 +16,16 @@ h1{
     justify-content: center;
 }
 
+.apilist li{
+    margin: 20px 0;
+}
+
+
 .apis a{
     text-decoration: none;
     color: #000;
     font-size: 20px;
     font-weight: bold;
-    margin: 10px 0;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #000;
